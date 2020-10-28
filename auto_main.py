@@ -33,7 +33,7 @@ for linha in arquivo_genomas:
     if len(linha) > 0:
         nome_genoma = GerarNomeArquivo(linha)
         print("-> Genoma: "+nome_genoma)
-        os.system("python3 main.py "+linha)
+        os.system("python3 main_v2.py "+linha)
 
         # -> gera nome do genoma 
         # -> cria pasta baseado no nome 
