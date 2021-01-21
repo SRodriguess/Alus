@@ -14,7 +14,7 @@ vec_subfamilia = {}
 classe = ""
 familia = ""
 subfamilia = ""
-vec_no_use_class = ["Low_complexity", "DNA", "DNA?", "Satellite", "scRNA", "snRNA", "srpRNA", "rRNA", "tRNA", "Simple_repeat"] # Lista de classes que serão removidas
+vec_no_use_class = ["Low_complexity", "Satellite", "scRNA", "snRNA", "srpRNA", "rRNA", "tRNA", "Simple_repeat"] # Lista de classes que serão removidas
 list_quants = {} # Armazena 'quantidade' de classes e familias
 
 with open(arquivo, 'r') as file:
